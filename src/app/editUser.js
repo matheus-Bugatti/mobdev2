@@ -2,7 +2,7 @@ import { View, Text, Button, StyleSheet, TextInput } from 'react-native'
 import { useRouter } from 'expo-router'
 import { useState } from 'react'
 
-export default function Signup() {
+export default function EditUser() {
 
     const router = useRouter()
 
@@ -11,7 +11,7 @@ export default function Signup() {
     const [pass, setPass] = useState("")
     const [avatar, setAvatar] = useState("")
 
-    const handleSignup = async () => {
+    const handleEditUser = async () => {
 
         const profile = {
             name,
@@ -39,7 +39,7 @@ export default function Signup() {
     return (
         <View style={styles.container}>
 
-            <Text style={styles.title}>Cadastre-se</Text>
+            <Text style={styles.title}>Editar Perfil</Text>
 
             <View style={{ width: '80%' }}>
                 <Text style={styles.label}>Nome:</Text>
@@ -70,7 +70,7 @@ export default function Signup() {
             <View style={{ marginTop: 20 }}>
                 <Button
                     title='Cadastrar'
-                    onPress={handleSignup}
+                    onPress={handleEditUser}
                 />
             </View>
         </View>

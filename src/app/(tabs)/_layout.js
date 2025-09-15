@@ -12,40 +12,40 @@ export default function RootLayout() {
             tabBarLabelStyle: { fontSize: 8 },
         }}
         >
-            <Tabs.Screen 
+            <Tabs.Screen
                 name="home"
-                options={{ 
+                options={{
                     title: "Home",
                     //tabBarShowLabel: false,
                     headerShown: false,
-                    tabBarIcon: ({color}) => <Foundation name="home" size={24} color={color} /> 
+                    tabBarIcon: ({ color }) => <Foundation name="home" size={24} color={color} />
                 }}
             />
-            <Tabs.Screen 
+            <Tabs.Screen
                 name="about"
-                options={{ 
+                options={{
                     title: "Sobre",
                     headerShown: false,
                     //tabBarShowLabel: false, 
-                    tabBarIcon: ({color}) => <FontAwesome5 name="house-user" size={20} color={color} />
+                    tabBarIcon: ({ color }) => <FontAwesome5 name="house-user" size={20} color={color} />
                 }}
             />
-            <Tabs.Screen 
+            <Tabs.Screen
                 name="contact"
-                options={{ 
+                options={{
                     title: "Contato",
                     headerShown: false,
                     //tabBarShowLabel: false, 
-                    tabBarIcon: ({color}) => <MaterialCommunityIcons name="contacts" size={24} color={color} />
+                    tabBarIcon: ({ color }) => <MaterialCommunityIcons name="contacts" size={24} color={color} />
                 }}
             />
-            <Tabs.Screen 
+            <Tabs.Screen
                 name="profile"
-                options={{ 
+                options={{
                     title: "perfil",
                     headerShown: false,
                     //tabBarShowLabel: false, 
-                    tabBarIcon: ({color}) => <Entypo name="user" size={24} color={color} />
+                    tabBarIcon: ({ color }) => <Entypo name="user" size={24} color={color} />
                 }}
             />
         </Tabs>

@@ -8,11 +8,11 @@ export default function Initializer() {
     return (
         <View style={styles.container}>
             <Text>Inicializador</Text>
-            <Button 
+            <Button
                 title='Login'
                 onPress={() => router.navigate('/login')}
             />
-            <Button 
+            <Button
                 title='Home'
                 onPress={() => router.navigate('/home')}
             />

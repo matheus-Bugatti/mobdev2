@@ -1,11 +1,11 @@
 import { View, Text, StyleSheet } from 'react-native'
-import {Image} from 'expo-image'
+import { Image } from 'expo-image'
 
-function Card({title, desc, img}) {
+function Card({ title, desc, img }) {
 
   return (
     <View style={styles.card}>
-      <Image 
+      <Image
         style={styles.image}
         source={img}
       />
