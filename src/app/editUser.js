@@ -21,7 +21,7 @@ export default function EditUser() {
         }
 
         const response = await fetch("http://localhost:3333/profile", {
-            method: "POST",
+            method: "PUT",
             headers: {
                 "Content-Type": "application/json"
             },
@@ -69,7 +69,7 @@ export default function EditUser() {
             </View>
             <View style={{ marginTop: 20 }}>
                 <Button
-                    title='Cadastrar'
+                    title='z'
                     onPress={handleEditUser}
                 />
             </View>
