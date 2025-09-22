@@ -23,7 +23,7 @@ function CardUser({ id, name, email, avatar }) {
     }
   }
   const handleEdit = () => {
-    console.log("Editar usuário")
+    console.log("Edit")
     router.push({
       pathname: '/edituser',
       params: { id, name, email, avatar }
