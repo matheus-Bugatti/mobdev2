@@ -8,11 +8,11 @@ export default function About() {
     return (
         <View style={styles.container}>
             <Text>Sobre</Text>
-            <Button 
+            <Button
                 title='Home'
                 onPress={() => router.navigate('/')}
             />
-            <Button 
+            <Button
                 title='Contato'
                 onPress={() => router.push('/contact')}
             />

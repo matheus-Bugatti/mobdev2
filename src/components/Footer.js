@@ -1,9 +1,9 @@
-import {View, Text, StyleSheet} from 'react-native'
+import { View, Text, StyleSheet } from 'react-native'
 
 function Footer() {
   return (
     <View style={styles.footer}>
-        <Text style={styles.ftext}>@ Renan Cavichi</Text>
+      <Text style={styles.ftext}>@ Renan Cavichi</Text>
     </View>
   )
 }
@@ -16,9 +16,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center'
   },
-  ftext:{
+  ftext: {
     color: "#FFF"
   }
-}) 
+})
 
 export default Footer

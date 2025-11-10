@@ -16,12 +16,12 @@ export default function Layout() {
                 options={{ title: "Cadastrar" }}
             />
             <Stack.Screen
-                name="(tabs)"
-                options={{ headerShown: false }}
-            />
-            <Stack.Screen
                 name="edituser"
                 options={{ title: "Editar Perfil" }}
+            />
+            <Stack.Screen
+                name="(tabs)"
+                options={{ headerShown: false }}
             />
         </Stack>
     )

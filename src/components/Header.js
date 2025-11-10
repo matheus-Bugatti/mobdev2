@@ -10,8 +10,8 @@ export default function Header() {
           style={styles.image}
           source={require('../../assets/img/logo.svg')}
         />
-        <Text style={styles.tipo}>Movie<Text style={{color: '#ff7b00'}}>Fy</Text></Text>
-      </View> 
+        <Text style={styles.tipo}>Movie<Text style={{ color: '#ff7b00' }}>Fy</Text></Text>
+      </View>
       <Entypo name="menu" size={30} color="#FFF" />
     </View>
   )
@@ -33,11 +33,11 @@ const styles = StyleSheet.create({
     height: 40,
     backgroundColor: "#ffffffff"
   },
-  image: { 
-    width: 35, 
+  image: {
+    width: 35,
     height: 35
   },
-  logotipo:{
+  logotipo: {
     flexDirection: "row",
     alignItems: "center",
     gap: 10
