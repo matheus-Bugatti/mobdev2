@@ -18,6 +18,21 @@
 - Passagem do state pai para filho (Prop Drilling)
 - Estados Globais com Zustand
 
+- avaliaçao 2: 8/12
+- Estados globais com zustand
+        - oq é zustand
+        - que posso criar no store
+        - oq acontece quando algum estado do zustand é alterado
+- scrollview x flatlist
+        - para que servem?
+        - qual a diferenca e quando usar cada um
+- asyncstorage
+        - para que serve?
+- axios para requisicoes autenticadas na api
+        - para que serve?
+            enviar requisicoes https (chamadas de api)
+        - quais vantagens em relacao ao fetch
+
 # Comandos Úteis
 
 - npx create-expo-app@latest --template  //cria o projeto React Native com Expo
